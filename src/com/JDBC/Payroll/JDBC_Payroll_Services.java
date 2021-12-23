@@ -37,7 +37,6 @@ public class JDBC_Payroll_Services {
 		while (driverList.hasMoreElements()) {
 			Driver driver = (Driver) driverList.nextElement();
 			System.out.println(" " + driverList.getClass().getName());
-
 		}
 	}
 }
